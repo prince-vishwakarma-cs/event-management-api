@@ -1,4 +1,4 @@
-````md
+
 # Event Management API
 
 A simple RESTful API to manage Users, Events, and Registrations.
@@ -6,25 +6,25 @@ A simple RESTful API to manage Users, Events, and Registrations.
 ## Setup Instructions
 
 1. **Clone the Repository**
-   ```bash
+   ``bash
    git clone https://github.com/prince-vishwakarma-cs/event-management-api.git
    cd event-management-api
-````
+``
 
 2. **Install Dependencies**
 
-   ```bash
+   ``bash
    npm install
-   ```
+   ``
 
 3. **Set Up Environment Variables**
 
    Create a `.env` file in the root directory:
 
-   ```env
+   ``env
    DATABASE_URI=your_postgres_connection_uri
    PORT=4000
-   ```
+   ``
 
 4. **Run the Server**
 
