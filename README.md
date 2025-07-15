@@ -10,7 +10,6 @@ A simple RESTful API to manage Users, Events, and Registrations.
    git clone https://github.com/prince-vishwakarma-cs/event-management-api.git
    cd event-management-api
 
-
 2. **Install Dependencies**
 
    ```bash
