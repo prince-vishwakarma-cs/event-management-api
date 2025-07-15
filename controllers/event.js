@@ -4,7 +4,6 @@ import { customEventSort, isEventInPast } from "../middlewares/event.js"
 export const createEvent = async (req, res) => {
     try {
         const { title, date_time, location, capacity } = req.body
-        console.log("hi")
         const result = await pool.query(
             'INSERT INTO events (title, date_time, location, capacity) VALUES ($1, $2, $3, $4) RETURNING *',
             [title, date_time, location, capacity]
