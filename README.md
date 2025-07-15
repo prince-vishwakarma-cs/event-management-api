@@ -205,7 +205,7 @@ http://localhost:4000/
 }
 ```
 
-### Statistics
+### Stats
 
 #### Get Event Stats
 
@@ -224,4 +224,3 @@ http://localhost:4000/
     "max_capacity": 45
   }
 }
-```
